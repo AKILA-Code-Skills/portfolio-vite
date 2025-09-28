@@ -14,6 +14,9 @@ function App() {
       <div id="home">
         <Home />
       </div>
+      <div id="about">
+        <About />
+      </div>
       <div id="resume">
         <Resume />
       </div>
@@ -23,11 +26,8 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-      <div id="about">
-        <About />
-      </div>
-  
     </>
   );
 }
+
 export default App;

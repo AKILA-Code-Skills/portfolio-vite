@@ -10,7 +10,7 @@ function Navbar() {
       transition={{ duration: 0.8 }}
     >
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">My Portfolio</a>
+        <a className="navbar-brand fw-bold" href="#home">My<span className="text-warning">Portfolio</span></a>
         <div>
           <a className="nav-link text-white d-inline px-3" href="#home">Home</a>
           <a className="nav-link text-white d-inline px-3" href="#about">About</a>

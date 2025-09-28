@@ -52,7 +52,7 @@ function Resume() {
             {/* LEFT COLUMN */}
             <div className="col-md-6 pe-md-5">
               {/* Summary */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Summary</h4>
                 <p>
                   Dedicated and detail-oriented B.Sc. Mathematics with Computer
@@ -63,19 +63,19 @@ function Resume() {
               </section>
 
               {/* Education */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Education</h4>
                 <p>
                   <strong>B.Sc. Mathematics with Computer Applications</strong>
                   <br />
                   Lady Doak College, Madurai
                   <br />
-                  <span className="text-muted">2022 – 2025 (Expected)</span>
+                  <span className="text">2022 – 2025</span>
                 </p>
               </section>
 
               {/* Certificates */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Certificates</h4>
                 <ul>
                   <li>Certificate from NIT Trichy</li>
@@ -84,7 +84,7 @@ function Resume() {
               </section>
 
               {/* Languages */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Languages</h4>
                 <ul>
                   <li>Tamil (Native)</li>
@@ -96,7 +96,7 @@ function Resume() {
             {/* RIGHT COLUMN */}
             <div className="col-md-6 ps-md-5">
               {/* Skills */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Skills</h4>
                 <ul>
                   <li>Programming: Java</li>
@@ -107,7 +107,7 @@ function Resume() {
               </section>
 
               {/* Academic Project */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Academic Project</h4>
                 <p>
                   <strong>
@@ -122,7 +122,7 @@ function Resume() {
               </section>
 
               {/* Courses */}
-              <section className="mb-4">
+              <section className="mb-4 p-3 rounded-4 bg-black bg-opacity-50">
                 <h4 className="text-warning mb-2">Courses Completed</h4>
                 <ul>
                   <li>Java Full Stack Development</li>

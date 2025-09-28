@@ -26,7 +26,7 @@ function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Frontend Developer | React Enthusiast | Problem Solver
+          Full Stack Developer | React Enthusiast | Problem Solver
         </motion.h3>
 
         {/* Profile Image with Animation */}
