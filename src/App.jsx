@@ -4,6 +4,8 @@ import Home from './Home';
 import Resume from './Resume';
 import Projects from './Project';
 import Contact from './Contact';
+import About from './About';
+import './App.css';
 
 function App() {
   return (
@@ -21,8 +23,11 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
+      <div id="about">
+        <About />
+      </div>
+  
     </>
   );
 }
-
 export default App;

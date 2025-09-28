@@ -1,23 +1,26 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import React from "react";
+import { motion } from "framer-motion";
 
-function NavigationBar() {
+function Navbar() {
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm">
-      <Container>
-        <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <motion.nav 
+      className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
+      <div className="container">
+        <a className="navbar-brand fw-bold" href="#home">My Portfolio</a>
+        <div>
+          <a className="nav-link text-white d-inline px-3" href="#home">Home</a>
+          <a className="nav-link text-white d-inline px-3" href="#about">About</a>
+          <a className="nav-link text-white d-inline px-3" href="#projects">Projects</a>
+          <a className="nav-link text-white d-inline px-3" href="#resume">Resume</a>
+          <a className="nav-link text-white d-inline px-3" href="#contact">Contact</a>
+        </div>
+      </div>
+    </motion.nav>
   );
 }
 
-export default NavigationBar;
+export default Navbar;
